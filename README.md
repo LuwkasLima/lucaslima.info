@@ -1,38 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to my personal website's repo
 
-## Getting Started
+This is a Next.js + Tailwind CSS personal website that showcases my profile, technical skills, international professional experiences, education, spoken languages, and certificates.
 
-First, run the development server:
+[See an example](https://luwkaslima.github.io/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+NOTE: This is a custom deployment of [nextjs-resume](https://github.com/LuwkasLima/nextjs-resume)
+
+## Features
+
+- Professional summary highlighting my technical expertise and professional accomplishments
+- List of my skills and the technologies I have mastered
+- Section showcasing my international work experiences
+- Section detailing my education and certifications
+- List of languages I speak
+
+## Technology
+
+- [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React-pdf](https://react-pdf.org/)
+- [Marked](https://marked.js.org/)
+- [Front Matter](https://frontmatter.codes/docs/markdown)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI Colors](https://www.radix-ui.com/colors)
+- [Vercel OG Image Generation](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)
+- [Jest](https://jestjs.io/)
+- [Testing Library](https://testing-library.com/)
+
+### Usage
+
+To run this website locally, clone this repository and install the dependencies:
+
+```
+git clone https://github.com/LuwkasLima/luwkaslima.github.io.git
+cd luwkaslima.github.io
+yarn install
+yarn run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Modify Custom Config
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Clone the project you just created to your local machine. Open it in your favorite editor, and open up the `edit-me/config/` folder at the root. Here you will find a couple of placeholder images that you can swap out if you want. You can also edit the `manifest.json` and `resumeConfig.ts` to meet your needs. The config file contains the following constants that will be used throughout the project (these are typed to provide appropriate autocomplete and error checking):
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- `accentColor`: `string`. The name of an accent palette from [Radix UI Colors](https://www.radix-ui.com/docs/colors/palette-composition/the-scales#colors). If using a standard color, the contrasting text color will be white, and if using a bright color, the contrasting text color will be black.
+- `neutralColor`: `string`. The name of a neutral palette from [Radix UI Grays](https://www.radix-ui.com/docs/colors/palette-composition/the-scales#grays).
+- `ogImageTheme`: `'light' | 'dark'`. Your OG share image will generate either a light or a dark variant.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Further Customizations
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For additional guidance on configuration, check [nextjs-resume](https://github.com/LuwkasLima/nextjs-resume) repository on Github.
