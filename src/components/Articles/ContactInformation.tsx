@@ -15,7 +15,7 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
 }) => {
   return (
     <article>
-      <SectionHeading icon={faIdCard} level={3} text="Contact Information" />
+      <SectionHeading icon={faIdCard} level={3} text="Contact" />
 
       <ul className="mt-2">
         <li>
