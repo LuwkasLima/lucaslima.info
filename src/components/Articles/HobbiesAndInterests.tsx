@@ -17,7 +17,7 @@ export const HobbiesAndInterests: React.FC<HobbiesAndInterestsProps> = ({
         <SectionHeading
           icon={faPaintBrush}
           level={2}
-          text="Hobbies &amp; Interests"
+          text="Thank You!"
         />
       </div>
 
