@@ -20,6 +20,9 @@ const Head = async () => {
       <meta name="twitter:description" content={description} />
 
       <title>{title}</title>
+
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#e67b00" />
     </>
   );
 };

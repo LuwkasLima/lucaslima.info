@@ -1,6 +1,6 @@
 /** @type {import('./Config').ResumeConfig} */
 const resumeConfig = {
-  accentColor: 'blue',
+  accentColor: 'orange',
   neutralColor: 'mauve',
   ogImageTheme: 'light',
 };
