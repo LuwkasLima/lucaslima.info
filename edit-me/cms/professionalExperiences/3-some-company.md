@@ -6,11 +6,19 @@ title: Senior Solutions Architect
 
 <br />
 
-**Intimus “She Can” NFT art festival (Latin America)**
+**Generative AI Platform (Global)**
 
-Idea co-owner, solution architect and full-stack engineer of the first marketing campaign utilizing NFTs for community building as part of Intimus’ 3 years strategy to build digital communities.
+Principal solution architect of the first Generative AI Platform for Digital Solutions are Kimberly-Clark. Currently in use by Procurement, Supply Chain and Marketing (currently rolling out to other functions).
 
-**Solution:** High-fidelity prototype for consumer validation using a Next JS front-end with Flowbite components (Tailwind) and EVM Smart Contract managed through ThirdWeb SDK.
+**Solution:** A Global Generative AI Platform for Kimberly-Clark that utilizes OpenAI models along with Knowledge Base documents to generate new content, automate processes, and enhance productivity across various business functions, designed to streamline operations, foster innovation, and provide competitive advantages in the marketplace when connected to new or existing digital solutions.
+
+**_Tech Stack: OpenAI APIs / Langchain / Azure / React JS / Kubernetes._**
+
+**Intimus NFT art festival (Latin America)**
+
+Idea co-owner, solution architect and full-stack engineer of the first marketing campaign utilizing NFTs for community building as part of Intimus’ 3 years strategy to build digital communities. [festival-intimus.art](https://festival-intimus.art).
+
+**Solution:** (1) High-fidelity prototype for Customer Validation (Desirability - [IDEO](https://designthinking.ideo.com/)) using a Next JS front-end with Flowbite components (Tailwind) and EVM Smart Contract managed through ThirdWeb SDK; (2) MVP solution developed in collaboration with [Women Force](https://www.womenforce.art/) and [Samambaia Labs](https://www.samambaia.co/).
 
 **_Tech Stack: ThirdWeb / Wagmi / Connect Kit / Alchemy / IPFS / NextJS / Azure._**
 
@@ -36,6 +44,6 @@ I discuss the potential of decentralized metaverse and blockchain networks, as w
 
 **Computer Vision Model and APIs (Global)**
 
-Solution architect and ML engineer to train a transformers model for classification of poop color, served through APIs on Azure to a React front-end pilot application [poposcan.com](https://www.poposcan.com/)
+Solution architect and ML engineer to train a transformers model for classification of poop color, served through APIs on Azure to a React front-end pilot application.
 
 **Solution:** This initiative has 3 distinct architectures that have been developed to test different hypothesis and provide options for markets with specific needs. First version was developed in-house using a React Front-end, Azure serverless functions behind API management and a non-relational DB. Second version was built by a partner with computer vision expertise, which used images from our R&E to train a classification model and also provisioned a newer version of the front-end. Third version mocks up the machine learning model using RGB color maping to cut costs and reduce maintenance needs, priding very similar results. A in-house transformers model has also been trained using data collected from real consumers from the previous versions with very positive results.
