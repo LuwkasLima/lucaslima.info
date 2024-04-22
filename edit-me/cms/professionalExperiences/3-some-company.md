@@ -6,15 +6,17 @@ title: Senior Solutions Architect
 
 <br />
 
-**Generative AI Platform (Global)**
+**1- Generative AI Platform (Global)**
 
-Principal solution architect of the first Generative AI Platform for Digital Solutions are Kimberly-Clark. Currently in use by Procurement, Supply Chain and Marketing (currently rolling out to other functions).
+Principal Solution Architect of the first Generative AI Platform for digital applications at Kimberly-Clark. Currently in use by Procurement, Supply Chain and Marketing (rolling out to other functions).
 
-**Solution:** A Global Generative AI Platform for Kimberly-Clark that utilizes OpenAI models along with Knowledge Base documents to generate new content, automate processes, and enhance productivity across various business functions, designed to streamline operations, foster innovation, and provide competitive advantages in the marketplace when connected to new or existing digital solutions.
+**Solution:** A Global Generative AI Platform for Kimberly-Clark that utilizes OpenAI models along with Knowledge Base documents to generate new content, perform retrieval augmented generation (RAG), automate processes, and enhance productivity across various business functions. Designed to streamline operations, foster innovation, and provide competitive advantages in the marketplace when connected to new or existing digital solutions.
 
 **_Tech Stack: OpenAI APIs / Langchain / Azure / React JS / Kubernetes._**
 
-**Intimus NFT art festival (Latin America)**
+<br />
+
+**2- Intimus NFT art festival (Latin America)**
 
 Idea co-owner, solution architect and full-stack engineer of the first marketing campaign utilizing NFTs for community building as part of Intimus’ 3 years strategy to build digital communities. [festival-intimus.art](https://festival-intimus.art).
 
@@ -24,7 +26,7 @@ Idea co-owner, solution architect and full-stack engineer of the first marketing
 
 <br />
 
-**“Proof of Achievement” Non-fungible Awards (Global)**
+**3- “Proof of Achievement” Non-fungible Awards (Global)**
 
 Idea owner, solution architect, solidity engineer and product owner of an internal experiment to “de-risk” and show value of Web 3 technologies to businesses and Global IT leadership. Award NFTs in 2022: “CIO Awards”, “R&E Technical Excellence” and “Global Digital Innovator of the Year” [OpenSea](https://opensea.io/KCexpLabs/created).
 
@@ -34,7 +36,7 @@ Idea owner, solution architect, solidity engineer and product owner of an intern
 
 <br />
 
-**“Point of View” (POV) on Metaverse (Global)**
+**4- “Point of View” (POV) on Metaverse (Global)**
 
 I discuss the potential of decentralized metaverse and blockchain networks, as well as the possibilities created by decentralized applications and non-fungible tokens. The POV article explores how these emerging technologies can be used to innovate and create value for CPG corporations. By leveraging the reduced cost of verification and networking of non-fungible tokens and decentralized applications, CPG corporations can create new revenue sources and better engage with consumers.
 
@@ -42,7 +44,7 @@ I discuss the potential of decentralized metaverse and blockchain networks, as w
 
 <br />
 
-**Computer Vision Model and APIs (Global)**
+**5- Computer Vision Model and APIs (Global)**
 
 Solution architect and ML engineer to train a transformers model for classification of poop color, served through APIs on Azure to a React front-end pilot application.
 
