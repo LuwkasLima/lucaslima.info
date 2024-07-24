@@ -2,17 +2,16 @@
 
 This is a Next.js + Tailwind CSS personal website that showcases my profile, technical skills, international professional experiences, education, spoken languages, and certificates.
 
-[See an example](https://luwkaslima.github.io/)
+[Access Web Resume](https://luwkaslima.info/)
 
 NOTE: This is a custom deployment of [nextjs-resume](https://github.com/LuwkasLima/nextjs-resume)
 
 ## Features
 
 - Professional summary highlighting my technical expertise and professional accomplishments
-- List of my skills and the technologies I have mastered
-- Section showcasing my international work experiences
-- Section detailing my education and certifications
-- List of languages I speak
+- Section detailing my education, languages I speak and certifications
+- List of products/projects I've had the pleasure to contribute
+- Section showcasing my international work experiences and life achievements
 
 ## Technology
 
