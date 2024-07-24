@@ -2,7 +2,7 @@
 
 This is a Next.js + Tailwind CSS personal website that showcases my profile, technical skills, international professional experiences, education, spoken languages, and certificates.
 
-[Access Web Resume](https://luwkaslima.info/)
+[Access Web Resume](https://www.lucaslima.info/)
 
 NOTE: This is a custom deployment of [nextjs-resume](https://github.com/LuwkasLima/nextjs-resume)
 
