@@ -2,7 +2,7 @@
 location: St. Petersburg, FL - USA
 familyName: Lima
 givenName: Lucas
-title: Sr. Solutions Architect | Innovation Technologist
+title: Sr. Innovation Solutions Architect
 twitterUsername: LuwkasLima
 ---
 
