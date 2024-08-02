@@ -1,8 +1,8 @@
 ---
 organization: SVIO – Global Nestle Innovation | Marketing, Sales and e-business – Nestle IT North America
-endDate: 2018
-startDate: 2021
-title: Solutions Architect | Innovation Manager Trainee
+endDate: 2021
+startDate: 2018
+title: Solutions Architect | Innovation Manager
 ---
 
 <br />
