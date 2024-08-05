@@ -32,6 +32,8 @@ Solution architect and ML engineer to train a transformers model for classificat
 
 **Solution:** This initiative has 3 distinct architectures that have been developed to test different hypothesis and provide options for markets with specific needs. First version was developed in-house using a React Front-end, Azure serverless functions behind API management and a non-relational DB. Second version was built by a partner with computer vision expertise, which used images from our R&E to train a classification model and also provisioned a newer version of the front-end. Third version mocks up the machine learning model using RGB color maping to cut costs and reduce maintenance needs, priding very similar results. A in-house transformers model has also been trained using data collected from real consumers from the previous versions with very positive results.
 
+<br />
+
 **4- “Proof of Achievement” Non-fungible Awards (Global)**
 
 Idea owner, solution architect, solidity engineer and product owner of an internal experiment to “de-risk” and show value of Web 3 technologies to businesses and Global IT leadership. Award NFTs in 2022: “CIO Awards”, “R&E Technical Excellence” and “Global Digital Innovator of the Year” [OpenSea](https://opensea.io/KCexpLabs/created).
