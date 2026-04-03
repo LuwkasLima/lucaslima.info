@@ -1,9 +1,6 @@
 import {
   faGithub,
-  faInstagram,
-  faLinkedin,
-  faNpm,
-  faTwitter,
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons';
 import { CMSLink } from '../../src/cms-integration/markdown/links';
 
@@ -28,9 +25,9 @@ export const links: CMSLink[] = [
   //   icon: faNpm,
   //   title: 'NPM',
   // },
-  {
-    href: 'https://twitter.com/LuwkasLima',
-    icon: faTwitter,
-    title: 'Twitter',
-  },
+  // {
+  //   href: 'https://twitter.com/LuwkasLima',
+  //   icon: faTwitter,
+  //   title: 'Twitter',
+  // },
 ];

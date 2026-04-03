@@ -1,1 +1,1 @@
-Thank you very much for reading till this point! Please, reach out for a quick chat, I'm always willing to exchange experience with others.
+Thank you for investing the time to review my experience; if you reached this far, I already appreciate the care you bring to hiring, your attention to detail is exactly the kind of culture I’m excited to contribute to.

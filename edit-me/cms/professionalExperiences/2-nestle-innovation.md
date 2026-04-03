@@ -1,8 +1,8 @@
 ---
-organization: SVIO – Global Nestle Innovation | Marketing, Sales and e-business – Nestle IT North America
+organization: Nestle Innovation Outpost
 endDate: 2021
 startDate: 2018
-title: Solutions Architect | Innovation Manager
+title: Innovation Architect Manager
 ---
 
 <br />

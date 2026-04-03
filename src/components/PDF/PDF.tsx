@@ -52,6 +52,8 @@ Font.register({
   ],
 });
 
+Font.registerHyphenationCallback((word) => [word]);
+
 const sidebarWidth = 2.75;
 const fontSizes = {
   xl: 20,
@@ -81,6 +83,8 @@ const styles = StyleSheet.create({
     fontSize: fontSizes.xxs,
     justifyContent: 'flex-start',
     lineHeight: 1.3,
+    overflow: 'hidden',
+    paddingTop: spacers[4],
   },
   sidebar: {
     alignSelf: 'stretch',
@@ -96,7 +100,9 @@ const styles = StyleSheet.create({
   header: {
     backgroundColor: accentColor[10],
     color: accentColor.contrast,
-    padding: `${spacers[6]} ${spacers[4]}`,
+    paddingBottom: spacers[6],
+    paddingHorizontal: spacers[4],
+    paddingTop: spacers[3],
     textAlign: 'center',
   },
   headerTitle: { fontSize: fontSizes.xl, fontWeight: 700 },
@@ -104,11 +110,12 @@ const styles = StyleSheet.create({
   main: {
     alignSelf: 'stretch',
     display: 'flex',
-    flexBasis: 'auto',
+    flexBasis: 0,
     flexDirection: 'column',
     flexGrow: 1,
-    flexShrink: 0,
-    padding: spacers[4],
+    flexShrink: 1,
+    paddingHorizontal: spacers[4],
+    paddingBottom: spacers[4],
   },
   section: { marginBottom: spacers[4] },
   sectionHeading: {
@@ -141,7 +148,7 @@ const styles = StyleSheet.create({
     height: fontSizes.xxs,
     width: 'auto',
   },
-  sectionParagraph: { fontWeight: 400, margin: 0 },
+  sectionParagraph: { fontWeight: 400, margin: 0, textAlign: 'justify' },
   itemHeading: {
     alignItems: 'center',
     display: 'flex',
@@ -190,7 +197,7 @@ const htmlProps: Omit<HtmlProps, 'children'> = {
   style: { fontSize: fontSizes.xxs },
   stylesheet: {
     a: styles.a,
-    p: styles.sectionParagraph,
+    p: { ...styles.sectionParagraph, textAlign: 'justify' },
   },
 };
 
@@ -258,20 +265,9 @@ const PDF: React.FC<CMSData> = (props) => {
                 />
                 <Text>Skills &amp; Expertise</Text>
               </View>
-              {skills.map((skill, skillIndex) => (
+              {skills.map((skill) => (
                 <View key={skill.slug}>
                   <View style={styles.itemHeading}>
-                    <View style={styles.sectionHeadingStars}>
-                      {Array.from(Array(skills.length - skillIndex)).map(
-                        (star, starIndex) => (
-                          <Image
-                            key={starIndex}
-                            src={`${iconPath}/star-yellow.png`}
-                            style={styles.sectionHeadingStar}
-                          />
-                        ),
-                      )}
-                    </View>
                     <Text style={styles.bold}>{skill.attributes.title}</Text>
                   </View>
                   <Html {...htmlProps}>{skill.html}</Html>
@@ -349,7 +345,7 @@ const PDF: React.FC<CMSData> = (props) => {
                 src={`${iconPath}/circle-pen-paintbrush.png`}
                 style={styles.sectionHeadingIcon}
               />
-              <Text>Hobbies &amp; Interests</Text>
+              <Text>Thank You!</Text>
             </View>
             <Html
               {...htmlProps}

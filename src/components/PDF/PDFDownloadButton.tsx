@@ -14,7 +14,7 @@ const PDFDownloadButton: React.FC<PDFDownloadButtonProps> = ({ secret }) => {
       size="lg"
     >
       <FontAwesomeIcon className="mr-2" icon={faFilePdf} size="lg" />
-      View or Download PDF
+      Download PDF
     </ButtonLink>
   );
 };

@@ -1,5 +1,5 @@
 ---
-organization: Global Digital Innovation – Kimberly Clark
+organization: Kimberly-Clark AI Innovation 
 startDate: 2021
 title: Sr. Solutions Architect
 ---
