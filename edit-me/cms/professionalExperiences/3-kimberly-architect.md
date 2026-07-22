@@ -1,5 +1,6 @@
 ---
 organization: Kimberly-Clark AI Innovation 
+endDate: 2024
 startDate: 2021
 title: Sr. Solutions Architect
 ---

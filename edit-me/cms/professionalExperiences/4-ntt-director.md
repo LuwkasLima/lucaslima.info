@@ -1,5 +1,6 @@
 ---
 organization: NTT Data North America
+endDate: 2026
 startDate: 2024
 title: AI Architect Director
 ---

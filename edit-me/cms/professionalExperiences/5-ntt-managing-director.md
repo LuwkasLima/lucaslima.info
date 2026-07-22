@@ -1,6 +1,6 @@
 ---
 organization: NTT Data (Global Delivery)
-startDate: 2024
+startDate: 2026
 title: Managing Director, AI Architecture
 ---
 
