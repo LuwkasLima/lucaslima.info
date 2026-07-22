@@ -1,8 +1,8 @@
 import parseFrontMatter from 'front-matter';
 import fs from 'fs/promises';
-import { marked } from 'marked';
 import path from 'path';
 import invariant from 'tiny-invariant';
+import { parseMarkdown } from './parseMarkdown';
 
 export interface AchievementMarkdownAttributes {
   achievement: string;
@@ -40,7 +40,7 @@ export const getAchievements = async (): Promise<CMSAchievement[]> => {
         `${filename} missing "institution" attribute.`,
       );
 
-      const html = marked(body);
+      const html = parseMarkdown(body);
 
       return {
         attributes,

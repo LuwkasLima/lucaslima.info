@@ -1,8 +1,8 @@
 import parseFrontMatter from 'front-matter';
 import fs from 'fs/promises';
-import { marked } from 'marked';
 import path from 'path';
 import invariant from 'tiny-invariant';
+import { parseMarkdown } from './parseMarkdown';
 
 export interface PrivateInformationMarkdownAttributes {
   label: string;
@@ -36,7 +36,7 @@ export const getPrivateInformation = async (): Promise<
 
       invariant(attributes?.label, `${filename} missing "label" attribute.`);
 
-      const html = marked(body);
+      const html = parseMarkdown(body);
 
       return {
         attributes,

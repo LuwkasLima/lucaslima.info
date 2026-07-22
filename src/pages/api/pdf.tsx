@@ -24,6 +24,10 @@ const handler: NextApiHandler = async (req, res) => {
     <PDF privateInformation={privateInformation} {...props} />,
   );
   res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader(
+    'Content-Disposition',
+    'inline; filename="lucas-maia-lima-resume.pdf"',
+  );
   pdfStream.pipe(res);
   pdfStream.on('end', () => {});
 };

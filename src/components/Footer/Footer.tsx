@@ -23,7 +23,13 @@ export const Footer: React.FC<FooterProps> = ({
           <div className="flex justify-center">
             <div className="fa-3x grid grid-flow-col gap-2">
               {links.map((link) => (
-                <a className="no-underline" href={link.href} key={link.title}>
+                <a
+                  className="no-underline"
+                  href={link.href}
+                  key={link.title}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <span className="sr-only">
                     {personalInformation.attributes.givenName} on {link.title}
                   </span>
@@ -51,17 +57,29 @@ export const Footer: React.FC<FooterProps> = ({
 
         <div className="mt-1 text-sm">
           This résumé was developed using{' '}
-          <a className="link" href="https://nextjs.org/">
+          <a
+            className="link"
+            href="https://nextjs.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Next.js
           </a>{' '}
           and deployed on{' '}
-          <a className="link" href="https://vercel.com/">
+          <a
+            className="link"
+            href="https://vercel.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Vercel
           </a>
           . This is a custom deployment of {' '}
           <a
             className="link"
             href="https://github.com/colinhemphill/nextjs-resume-generator"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             nextjs-resume-generator
           </a>

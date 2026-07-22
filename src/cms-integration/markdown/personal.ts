@@ -1,8 +1,8 @@
 import parseFrontMatter from 'front-matter';
 import fs from 'fs/promises';
-import { marked } from 'marked';
 import path from 'path';
 import invariant from 'tiny-invariant';
+import { parseMarkdown } from './parseMarkdown';
 
 export interface PersonalMarkdownAttributes {
   location: string;
@@ -38,7 +38,7 @@ export const getPersonalInformation =
       'personal.md missing "givenName" attribute.',
     );
 
-    const html = marked(body);
+    const html = parseMarkdown(body);
 
     return {
       attributes,
